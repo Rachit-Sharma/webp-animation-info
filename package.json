@@ -4,7 +4,8 @@
   "description": "Calculates WebP animation info in the browser",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Rachit-Sharma/webp-animation-info/issues"
   },
-  "homepage": "https://github.com/Rachit-Sharma/webp-animation-info#readme"
+  "homepage": "https://github.com/Rachit-Sharma/webp-animation-info#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
