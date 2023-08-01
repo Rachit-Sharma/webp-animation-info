@@ -1,6 +1,6 @@
 {
   "name": "webp-animation-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculates WebP animation info in the browser",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
