@@ -16,8 +16,8 @@ export const chunks: Array<ChunkT> = [
     name: "fileSize",
     type: "number",
     offsetBits: 0,
-    bits: 24,
-    skipBits: 8,
+    bits: 32,
+    skipBits: 0,
     process: function (parsedValue, image) {
       const chunkSize = Number.parseInt(parsedValue, 2) + 8;
 

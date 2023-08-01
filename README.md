@@ -17,8 +17,8 @@ Then call with a file as argument and receive a promise which may resolve to a `
 webPAnimationInfo(event.target.files?.[0])
   .then((results) => {
     console.log(`${results.isAnimated}
-${loops}
-${totalDuration}`); // if isAnimated is true, 0 value for loops means infinite loops
+${results.loops}
+${results.totalDuration}`); // if isAnimated is true, 0 value for loops means infinite loops
     results.frameDurations.forEach((frameDuration) => {
       console.log(`${frameDuration}`);
     });
